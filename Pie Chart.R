@@ -31,4 +31,3 @@ pie_percent <- round(100*c/sum(c),1)
 pie3D(c,labels = labelsb,main="Direction",col = rainbow(length(c)))
 legend("topright",legend = labelsb,cex=0.6,
        fill=rainbow(length(c)))
-#
