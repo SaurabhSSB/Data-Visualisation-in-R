@@ -24,3 +24,11 @@ b <- c(30,25,45,55)
 labelsa=c("East","West","North","South")
 pie3D(b,labels=labelsa,explode = 0.2 , main = "Directions")
 
+# Percentage
+c <- c(30,25,45,55)
+labelsb=c("East","West","North","South")
+pie_percent <- round(100*c/sum(c),1)
+pie3D(c,labels = labelsb,main="Direction",col = rainbow(length(c)))
+legend("topright",legend = labelsb,cex=0.6,
+       fill=rainbow(length(c)))
+#
