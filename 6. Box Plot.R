@@ -1,4 +1,5 @@
 # Box Plot in R language
+
 names( mtcars)
 
 boxplot(mtcars$hp)
