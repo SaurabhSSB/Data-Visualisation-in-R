@@ -4,13 +4,17 @@
 View(mtcars)
 dim(mtcars)
 names(mtcars)
-
 # Fetching two columns from mtcars
 
 data<- mtcars[,c('wt','mpg')]
 print(data)
 
 # Plotting the chart for cars with weight height between 2.5 and 5 and mileage
+
+
+
+
+
 # between 15 and 30
 
 plot( x= data$wt, y= data$mpg,xlab= "weight", ylab= "Mileage", 
