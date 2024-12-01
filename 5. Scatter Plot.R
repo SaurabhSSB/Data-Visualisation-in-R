@@ -2,13 +2,9 @@
 # plot(x, y, main, xlab, ylab, xlim, ylim, axes) - General syntax
 
 View(mtcars)
-
-
-
-
-
 dim(mtcars)
 names(mtcars)
+
 # Fetching two columns from mtcars
 
 data<- mtcars[,c('wt','mpg')]
