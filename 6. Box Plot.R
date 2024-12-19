@@ -1,10 +1,10 @@
 # Box Plot in R language
 
 names( mtcars)
+
 boxplot(mtcars$hp)
 
 boxplot(mtcars$hp, main= "Data", xlab= "X- Axis", ylab= "Y- Axis", col= "yellow",
-
         border= "red", horizontal= TRUE, notch= TRUE)
 
 boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", col= "yellow",
